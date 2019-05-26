@@ -1,0 +1,109 @@
+
+/* Ip list container related */
+.ip_list_main_container
+{
+	display:	flex;
+	/* border:		1px solid red; */
+	width:		100%;
+	justify-content: center;
+}
+
+.ip_list_container
+{
+	margin-top: 70px;
+	/* border:		1px solid green; */
+	/* max-height: 90%; */
+	margin-bottom: 100px;
+	width:		90%;
+	/* height:		100px; */
+	display:	flex;
+	/* justify-content: center; */
+	flex-direction: column;
+
+}
+
+/* Serial number related */
+
+.serial_number_main_container
+{
+	height:				100%;
+	width:				70px;
+	display:			flex;
+	justify-content:	center;
+	align-items:		center;
+	color:				#6C6EAD;
+}
+
+.serial_number_main_container span
+{
+	font-size: 13px;
+}
+
+/* List related */
+
+.list_main_container
+{
+	display: flex;
+	flex-direction: column;
+	/* height: 35px; */
+	align-self: stretch;
+	/* border: 1px solid gray; */
+	margin: 0;
+}
+
+.row_main_container
+{
+	display: flex;
+	height: 35px;
+	align-self: stretch;
+	/* border: 1px solid yellow; */
+	margin-bottom: 3px;
+}
+
+.row_container
+{
+	background: #323F61;
+	flex: 1;
+	border-radius: 2px;
+	border: 1px solid #2B3451;
+	display: flex;
+	/* padding-left: 30px; */
+}
+
+.column_main_container
+{
+	/* border : 1px solid red; */
+	padding-left: 5px;
+	/* padding-right: 5px; */
+	display: flex;
+	justify-content: flex-start;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.column_image_container
+{
+	height: 100%;
+	width: 30px;
+	/* border: 1px solid blue; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 5px;
+}
+
+.column_image_container img
+{
+	width:	65%;
+	height:	65%;
+}
+
+.column_label_container
+{
+	color: #A1ABCF;
+}
+
+.column_label_container span
+{
+	font-size: 13px;
+}
